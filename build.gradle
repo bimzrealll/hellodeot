@@ -1,17 +1,18 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-        // tambahin plugin lain di sini kalau perlu
-    }
+plugins {
+    id 'java'
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // contoh aja biar gak kosong
+    implementation 'com.google.guava:guava:32.1.2-jre'
+}
+
+task hello {
+    doLast {
+        println 'Hello from Gradle!'
     }
 }
