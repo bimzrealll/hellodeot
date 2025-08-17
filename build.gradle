@@ -1,18 +1,12 @@
 plugins {
-    id 'java'
+    id 'application'
 }
 
 repositories {
+    google()
     mavenCentral()
 }
 
-dependencies {
-    // contoh aja biar gak kosong
-    implementation 'com.google.guava:guava:32.1.2-jre'
-}
-
-task hello {
-    doLast {
-        println 'Hello from Gradle!'
-    }
+application {
+    mainClass = 'com.example.app.App'
 }
