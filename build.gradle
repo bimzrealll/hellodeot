@@ -7,5 +7,5 @@ repositories {
 }
 
 application {
-    mainClass = 'App'
+    mainClass = 'com.example.app.App'
 }
