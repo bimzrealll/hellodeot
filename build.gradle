@@ -1,12 +1,11 @@
-// Top-level build file
 buildscript {
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 
-'com.android.tools.build:gradle:8.0.2'
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        // tambahin plugin lain di sini kalau perlu
     }
 }
 
