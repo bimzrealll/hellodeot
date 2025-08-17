@@ -3,10 +3,9 @@ plugins {
 }
 
 repositories {
-    google()
     mavenCentral()
 }
 
 application {
-    mainClass = 'com.example.app.App'
+    mainClass = 'App'
 }
